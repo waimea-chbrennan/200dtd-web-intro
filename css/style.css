@@ -1,0 +1,65 @@
+/* "#" means id, "." means class, " " means look inside for  */
+
+
+/*x > y means target y only if child of x  */
+body > header {
+    position: sticky;
+    top: 0;
+    background-color: var(--pico-background-color);
+    box-shadow: 0 0 1rem var(--pico-background-color);
+}
+
+
+
+section#hero {
+    text-align: center;
+    min-height: 20rem;
+    background-color: var(--pico-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    margin-bottom: 35rem;
+    border-radius: 1rem;
+}
+
+
+
+
+section#hero h1 {
+    font-size: 4rem;
+}
+
+
+
+section#author div {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+section#author article {
+    flex: 1;
+    min-width: 15rem;
+}
+
+section#author img {
+    border-radius: 0.5rem;
+}
+
+
+/* DEMOS =========== */
+
+section.demo div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #6666;
+    padding: 1rem;
+}
+
+section.demo div p {
+    font-size: 5rem;
+    background-color: pink;
+    padding: 1rem;
+}
