@@ -56,10 +56,57 @@ section.demo div {
     gap: 1rem;
     background-color: #6666;
     padding: 1rem;
+    border-radius: 1rem;
+    height: 15rem;
 }
 
 section.demo div p {
     font-size: 5rem;
     background-color: pink;
     padding: 1rem;
+    border-radius: 0.5rem;
+    line-height: 1;
+    width: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+section#task-2 div {
+    justify-content: center;
+}
+
+section#task-3 div {
+    justify-content: space-evenly;
+}
+
+section#task-4 div {
+    justify-content: flex-end;
+}
+section#task-5 div {
+    align-items: flex-start;
+}
+
+section#task-6 div {
+    align-items: flex-end;
+}
+
+section#task-7 div {
+    align-items: center;
+}
+
+section#task-8 div {
+    align-items: center;
+    justify-content: center;
+}
+
+section#task-9 div {
+    height: auto;
+}
+
+section#task-10 div {
+    flex-wrap: nowrap;
+}
+
+section#task-11 div {
+   flex-direction: row-reverse;
 }
